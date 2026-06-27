@@ -48,7 +48,7 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     full_name = db.Column(db.String(120), nullable=False)
-    password = db.Column(db.String(120), nullable=False)
+    password = db.Column(db.String(512), nullable=False)
     email = db.Column(db.String(120))
     phone = db.Column(db.String(40))
     role = db.Column(db.String(30), default="manager")
