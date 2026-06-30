@@ -1,4 +1,4 @@
-# HerdHUB Flask Livestock Management
+# BoerHUB Flask Livestock Management
 
 ## Local Run
 1. Install dependencies:
